@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-size: 3.12em;
+    background-color: goldenrod;
+    
+}
+.box1 {
+    width: 80%;
+    max-width: 37.8em;
+    padding: 3em 1.53m;
+    background-color: #161515;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.6em;
+}
+.box1 img{
+    display: block;
+    height: 25em;
+    max-width: 80%;
+    margin: 0 auto 1em auto;
+}
+.box1 h3{
+    display: block;
+    font-size: 1em;
+    margin:0.5em auto 2em auto;
+    width: 70%;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+    color: #f9004d;
+    letter-spacing: 0.03em;
+}
+.box1 button{
+    display: block;
+    margin: 0 auto;
+    font-size: 1.2em;
+    padding: 0.8em 2em;
+    border-radius: 2em;
+    background-color: #f9004d;
+    border: none;
+    outline: none;
+    color: antiquewhite;
+    cursor: pointer;
+}
+@media screen and(max-width: 600px){
+    .container{
+        font-size: 14px;
+    }
+}
+    
