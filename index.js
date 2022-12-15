@@ -1,6 +1,11 @@
 let meme= document.getElementById("meme");
 let title= document.getElementById("title");
-let getMemeBtn= document.getElementById("get-meme-btn");
+let getMemeBtn= document.getElementById("get-meme-btn")
+
+function myfunction(){
+    document.getElementById("get-meme-btn")
+    console.log ("Moused over!")
+}
 
 // API URL retrival
 
@@ -34,6 +39,8 @@ let getMeme= () => {
 
 };
 
-// call the getMeme() on button click and on window load
+// call the getMeme()on button click and on window load
 getMemeBtn.addEventListener("click", getMeme);
+getMemeBtn.addEventListener("mouseover", myfunction);
 window.addEventListener("load", getMeme);
+

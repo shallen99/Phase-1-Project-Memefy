@@ -5,14 +5,30 @@
 }
 body{
     background-size: 3.12em;
-    background-color: goldenrod;
-    
+    background-color: rgb(109, 7, 41)
 }
+#img1{
+   display:flex;
+   position: absolute;
+   top: 2px;
+   left:16px;
+   max-width: 25%;
+  }
+  #img2{
+    display:flex;
+    position: absolute;
+    bottom: 2px;
+    right:16px;
+    max-width: 28%;
+    max-height: 70%;
+   }
+
+
 .box1 {
-    width: 80%;
-    max-width: 37.8em;
+    width: 60%;
+    max-width: 35.8em;
     padding: 3em 1.53m;
-    background-color: #161515;
+    background-color: olive;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -33,7 +49,7 @@ body{
     font-weight: 400;
     text-align: center;
     text-transform: capitalize;
-    color: #f9004d;
+    color: black;
     letter-spacing: 0.03em;
 }
 .box1 button{
@@ -42,12 +58,13 @@ body{
     font-size: 1.2em;
     padding: 0.8em 2em;
     border-radius: 2em;
-    background-color: #f9004d;
+    background-color: #097474;
     border: none;
     outline: none;
     color: antiquewhite;
     cursor: pointer;
 }
+
 @media screen and(max-width: 600px){
     .container{
         font-size: 14px;
