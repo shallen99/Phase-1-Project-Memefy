@@ -39,7 +39,6 @@ body{
     max-width: 80%;
     margin: 0 auto 1em auto;
 }
-
 .box1 h3{
     display: block;
     font-size: 1em;
@@ -51,6 +50,7 @@ body{
     color: black;
     letter-spacing: 0.03em;
 }
+
 .box1 button{
     display: block;
     margin: 0 auto;
