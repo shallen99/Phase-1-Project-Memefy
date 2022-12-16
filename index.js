@@ -2,6 +2,27 @@ let meme= document.getElementById("meme");
 let title= document.getElementById("title");
 let getMemeBtn= document.getElementById("get-meme-btn");
 
+const likeBtn=document.querySelector(".like-btn");
+const likeIcon=document.querySelector("#icon");
+let count =document.querySelector("#count");
+
+//Another click eventlistener
+let clicked= false
+
+likeBtn.addEventListener("click", ()=>{
+    //console.log("hello")
+    if (!clicked){
+        clicked= true;
+        likeIcon.innerHTML='<i class="fa-solid fa-heart"></i>'
+        count.textContent++;
+    }
+    else{
+        clicked= false;
+        likeIcon.innerHTML='<i class="fa-regular fa-heart"></i>'
+        count.textContent++;
+    }
+})
+
 function myfunction(){
     document.getElementById("get-meme-btn")
     console.log ("Moused over!")
