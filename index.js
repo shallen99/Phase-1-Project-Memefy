@@ -41,7 +41,7 @@ let getMeme= () => {
 };
 
 // call the getMeme()on button click and on window load
+
 getMemeBtn.addEventListener("click", getMeme);
 getMemeBtn.addEventListener("mouseover", myfunction);
 window.addEventListener("load", getMeme);
-
