@@ -14,6 +14,7 @@ let url = "https://meme-api.com/gimme/";
 
 // Array of subreddits
 
+let subreddits=["catmemes","wholesomemes", "dogmemes", "me_irl"];
 
 //function to get  Random Meme
 
