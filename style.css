@@ -5,17 +5,16 @@
 }
 body{
     background-size: 3.12em;
-    background-color: rgb(109, 7, 41)
+    background-color: rgb(109, 7, 41);
 }
-
 #img1{
-   display:flex;
-   position: absolute;
-   top: 2px;
-   left:16px;
-   max-width: 25%;
-  }
-  #img2{
+    display:flex;
+    position: absolute;
+    top: 2px;
+    left:16px;
+    max-width: 25%;
+   }
+#img2{
     display:flex;
     position: absolute;
     bottom: 2px;
