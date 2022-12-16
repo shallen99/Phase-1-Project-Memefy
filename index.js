@@ -5,7 +5,6 @@ let getMemeBtn= document.getElementById("get-meme-btn");
 const likeBtn=document.querySelector(".like-btn");
 const likeIcon=document.querySelector("#icon");
 let count =document.querySelector("#count");
-
 //Another click eventlistener
 let clicked= false
 
@@ -22,6 +21,7 @@ likeBtn.addEventListener("click", ()=>{
         count.textContent++;
     }
 })
+
 
 function myfunction(){
     document.getElementById("get-meme-btn")
