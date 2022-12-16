@@ -1,6 +1,6 @@
 let meme= document.getElementById("meme");
 let title= document.getElementById("title");
-let getMemeBtn= document.getElementById("get-meme-btn")
+let getMemeBtn= document.getElementById("get-meme-btn");
 
 function myfunction(){
     document.getElementById("get-meme-btn")
