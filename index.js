@@ -17,11 +17,11 @@ let url = "https://meme-api.com/gimme/";
 let subreddits=["catmemes","wholesomemes", "dogmemes", "me_irl"];
 
 //function to get  Random Meme
-
 let getMeme= () => {
     //choose a random subreddit from the subreddits array
     let randomSubreddit= subreddits[Math.floor(Math.random()
          * subreddits.length)];
+
 
        //fetch data from API
        fetch(url+randomSubreddit).then(
